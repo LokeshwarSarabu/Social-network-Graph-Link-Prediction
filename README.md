@@ -18,4 +18,5 @@ Data contains two columns source and destination for each edge in graph
 
 ### Mapping the problem into supervised learning problem:
 
-- Generated training samples of good and bad links from given directed graph and for each link got some features like no of followers, is he followed back, page rank, katz score, adar index, some svd fetures of adj matrix, some weight features etc. and trained ml model based on these features to predict link.
+- Map this to binary classification task with 0 implying the absence of edge and 1 implying the presence of edge as y_i's.
+- Now, I need to featurize the pair of vertices such that these features can help us to predict the presence/ absence of edge.
