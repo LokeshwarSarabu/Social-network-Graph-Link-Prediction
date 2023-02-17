@@ -13,8 +13,7 @@ Data contains two columns source and destination for each edge in graph
 
 ### Business objectives and constraints:
 
-1. No low-latency requirement.
-2. Probability of prediction is useful to recommend ighest probability links.
+- No low-latency requirement.
 
 
 ### Mapping the problem into supervised learning problem:
